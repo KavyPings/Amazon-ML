@@ -1,0 +1,4 @@
+2026-09-28 03:05
+val_macro_f05=0.9866
+mean_candidates_per_s1=4.82
+v3: trained on closed 22pct subset, val 0.9866

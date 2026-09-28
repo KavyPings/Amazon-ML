@@ -1,0 +1,35 @@
+{
+ "n_s1": 1732544,
+ "candidates_per_s1_mean": 5.7667101095268,
+ "candidates_per_s1_p95": 9.0,
+ "candidates_per_s1_max": 12,
+ "share_s1_with_match": 0.9449855241771637,
+ "matches_per_s1_mean": 3.400768465331905,
+ "by_country": {
+  "france": {
+   "n_s1": 259452,
+   "n_pool": 1434993,
+   "cands_mean": 6.0302753495829675,
+   "share_with_match": 0.956681775434377,
+   "matches_mean": 3.541021075189245,
+   "minutes": 5.556196920077006
+  },
+  "india": {
+   "n_s1": 809986,
+   "n_pool": 4717565,
+   "cands_mean": 5.791370468131548,
+   "share_with_match": 0.9422767800924954,
+   "matches_mean": 3.352323373490406,
+   "minutes": 20.603704432646435
+  },
+  "us": {
+   "n_s1": 663106,
+   "n_pool": 3817031,
+   "cands_mean": 5.633462824948047,
+   "share_with_match": 0.9437178972894228,
+   "matches_mean": 3.4050679680171796,
+   "minutes": 15.418614641825359
+  }
+ },
+ "missing_countries": []
+}

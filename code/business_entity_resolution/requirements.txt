@@ -1,0 +1,11 @@
+# Python 3.12. Mature, widely used releases (also avoids Windows Smart App Control blocking
+# brand-new unsigned binaries). Only learned models: LightGBM boosters (MIT licence).
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.5.2
+lightgbm==4.5.0
+rapidfuzz==3.9.7
+sparse-dot-topn==1.2.0
+pyarrow==17.0.0
+psutil==6.0.0

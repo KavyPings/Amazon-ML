@@ -1,0 +1,46 @@
+# =====================================================================
+#  Amazon ML Challenge 2026 - what stays OUT of git
+#  (GitHub rejects files > 100 MB and pushes of several GB time out)
+# =====================================================================
+
+# ---- challenge data: huge, and not ours to redistribute --------------
+data/
+*.zip
+info/*.mp4
+
+# ---- generated submission files (100-150 MB each, over GitHub's limit)
+#      rebuild any time:  python run.py merge   (or launch\quick_submit.bat)
+**/output/
+**/output_*/
+submissions/**/*.tsv
+
+# ---- run folders: keep only the models of the current submission ----
+code/business_entity_resolution/artifacts_*/
+code/business_entity_resolution/artifacts/part_*.pkl
+code/business_entity_resolution/artifacts/*.parquet
+
+# ---- training subsets / samples extracted from the data --------------
+#      (keep only the learned normalisation maps)
+code/business_entity_resolution/launch/out/**
+!code/business_entity_resolution/launch/out/**/
+!code/business_entity_resolution/launch/out/big/maps_full2.pkl
+
+# ---- logs and run state ----------------------------------------------
+*.log
+*_log.txt
+code/business_entity_resolution/launch/status*.txt
+code/business_entity_resolution/launch/probe.txt
+code/business_entity_resolution/launch/freeze.txt
+
+# ---- python / editors / OS ------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store

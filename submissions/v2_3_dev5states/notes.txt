@@ -1,0 +1,4 @@
+2026-09-28 00:11
+val_macro_f05=0.9849
+mean_candidates_per_s1=4.32
+v2.3 model (dev 5 states), val 0.9849, cands 5.2/S1
